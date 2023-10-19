@@ -1,8 +1,5 @@
 {
-    "platforms": {},
     "defaults": {
-        "title": "Hello Renative",
-        "id": "com.mycompany.renative",
         "supportedPlatforms": [
             "android",
             "androidtv",
@@ -14,7 +11,9 @@
             "tvos",
             "tizen",
             "webos"
-        ]
+        ],
+        "title": "Hello Renative",
+        "id": "com.mycompany.renative"
     },
     "engines": {
         "@rnv/engine-rn": "source:rnv",
@@ -23,6 +22,7 @@
         "@rnv/engine-rn-web": "source:rnv"
     },
     "plugins": {},
+    "platforms": {},
     "extendsTemplate": "renative.json",
     "projectName": "renative",
     "workspaceID": "rnv",
@@ -32,6 +32,5 @@
         }
     },
     "currentTemplate": "@flexn/create-template-starter",
-    "isNew": true,
     "isMonorepo": false
 }
