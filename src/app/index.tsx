@@ -67,6 +67,9 @@ const AppThemed = () => {
       >
         <Text style={theme.styles.buttonText}>Try me!</Text>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => alert("vai toma no cu")}>
+        <Banner {...testProps("template-starter-home--banner")} />
+      </TouchableOpacity>
     </View>
   );
 };
