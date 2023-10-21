@@ -1,7 +1,7 @@
 import { Logger } from 'rnv';
 
 const hooks = {
-    hello: async (c) => {
+    hello: async () => {
         Logger.logHook('Hello build hook!');
     },
 };

@@ -1,11 +1,14 @@
 {
-    "extendsTemplate": "@flexn/create-template-starter/appConfigs/base/renative.json",
+    "extendsTemplate": "@rnv/template-starter/appConfigs/base/renative.json",
     "id": "app",
     "common": {
         "id": "com.mycompany.renative",
         "title": "Hello Renative",
-        "description": "My App",
-        "buildSchemes": {}
+        "description": "ReNative App",
+        "buildSchemes": {},
+        "runtime": {
+            "welcomeMessage": "Hello ReNative!"
+        }
     },
     "platforms": {}
 }
